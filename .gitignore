@@ -3,6 +3,8 @@ logs
 images
 /dist
 
+build
+
 # Logs
 logs
 *.log
