@@ -1,0 +1,15 @@
+{
+  "source": ["properties/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "prefix" : "chd",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }],
+      "transforms" : ["name/cti/kebab","web/px"]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "button": {
+      "color": {
+        "background" : {
+          "primary" : {
+            "default" : {"value": "{color.blue-500.value}", "comment" : "alias of color-blue-500"},
+            "hover" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
+          },
+          "secondary" : {
+            "default" : {"value": "{color.gray-300.value}", "comment" : "alias of color-gray-300"},
+            "hover" : {"value": "{color.gray-400.value}", "comment" : "alias of color-gray-400"}
+          }
+        }
+      } 
+    }
+}

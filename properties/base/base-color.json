@@ -1,0 +1,33 @@
+{
+  "color": {
+    "costco-blue":{"value": "#005dab"},
+    "costco-red":{"value": "#e51937"},
+    "gray-100":{"value": "#fafafa"},
+    "gray-200":{"value": "#eeeeee"},
+    "gray-300":{"value": "#eaeaea"},
+    "gray-400":{"value": "#d9d9d9"},
+    "gray-500":{"value": "#cccccc"},
+    "gray-600":{"value": "#9c9c9c"},
+    "gray-700":{"value": "#707070"},
+    "gray-800":{"value": "#5f5f5f"},
+    "gray-900":{"value": "#333333"},
+    "blue-100":{"value": "#eff7fb"},
+    "blue-500":{"value": "#3071a9"},
+    "blue-600":{"value": "#0060a9"},
+    "blue-700":{"value": "#2a6293"},
+    "green-100":{"value": "#dff0d8"},
+    "green-200":{"value": "#85c66a"},
+    "red-500":{"value": "#d32029"},
+    "red-100":{"value": "#fdd6d6"},
+    "yellow-200":{"value": "#ffcc00"},
+    "yellow-100":{"value": "#fff8d2"},
+    "text" : {
+      "default" : {"value": "{color.gray-900.value}", "comment" : "alias of color-gray-900"},
+      "medium" : {"value": "{color.gray-800.value}", "comment" : "alias of color-gray-800"},
+      "light" : {"value": "{color.gray-700.value}", "comment" : "alias of color-gray-700"},
+      "link" : {"value": "{color.blue-600.value}", "comment" : "alias of color-blue-600"},
+      "error" : {"value": "{color.red-500.value}", "comment" : "alias of color-red-500"},
+      "success" : {"value": "{color.blue-600.value}","comment" : "alias of color-red-500"}
+    }
+  }
+}

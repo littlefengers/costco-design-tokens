@@ -1,0 +1,16 @@
+{
+    "type": {
+      "t1": {
+        "font" : {
+          "size" : {
+            "desktop" : {"value": "{font.size.1.value}", "comment" : "alias of font.size.1"},
+            "mobile" : {"value": "{font.size.2.value}", "comment" : "alias of font.size.2"}
+          },
+          "line-height" : {
+            "desktop" : {"value": "{font.line-height.xl.value}", "comment" : "alias of font.line-height.xl"},
+            "mobile" : {"value": "{font.line-height.md.value}", "comment" : "alias of font.line-height.md"}
+          }
+        }
+      } 
+    }
+}

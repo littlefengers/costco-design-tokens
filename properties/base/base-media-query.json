@@ -1,0 +1,8 @@
+{
+  "media-query": {
+    "sm": { "value": "376px" },
+    "md": { "value": "668px" },
+    "lg": { "value": "769px" },
+    "xl": { "value": "1025px" }
+  }
+}
