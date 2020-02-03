@@ -1,16 +1,23 @@
 {
-    "button": {
+    "buttons": {
       "color": {
-        "background" : {
-          "primary" : {
-            "default" : {"value": "{color.blue-500.value}", "comment" : "alias of color-blue-500"},
-            "hover" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
+        "primary" : {
+          "default" : {
+            "text": {"value": "{color.white.value}"},
+            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
           },
-          "secondary" : {
-            "default" : {"value": "{color.gray-300.value}", "comment" : "alias of color-gray-300"},
-            "hover" : {"value": "{color.gray-400.value}", "comment" : "alias of color-gray-400"}
+          "focus" : {
+            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
+          },
+          "hover" : {
+            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
           }
-        }
+        },
+        "text":{"value": "{color.white.value}", "comment" : "default for all buttons"}
+      },
+      "size" : {
+        "border-width" : {"value" : "3"},
+        "height" : {"value" : "40"}
       } 
     }
 }
