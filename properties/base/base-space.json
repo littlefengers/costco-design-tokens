@@ -1,6 +1,6 @@
 {
-  "spacing": {
-    "xxs": { "value": "4","blarg":"yah!" },
+  "space": {
+    "xxs": { "value": "4" },
     "xs": { "value": "8" },
     "sm": { "value": "12" },
     "md": { "value": "16" },
