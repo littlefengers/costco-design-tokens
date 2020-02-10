@@ -23,7 +23,7 @@
     "yellow-100":{"value": "#fff8d2"},
     "white":{"value": "#ffffff"},
     "black":{"value": "#000000"},
-    "text" : {
+    "font" : {
       "default" : {"value": "{color.gray-900.value}", "comment" : "alias of color-gray-900"},
       "medium" : {"value": "{color.gray-800.value}", "comment" : "alias of color-gray-800"},
       "light" : {"value": "{color.gray-700.value}", "comment" : "alias of color-gray-700"},
