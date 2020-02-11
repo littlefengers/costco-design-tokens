@@ -16,5 +16,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "style-dictionary": "2.8.3"
+  },
+  "dependencies": {
+    "param-case": "^3.0.3"
   }
 }

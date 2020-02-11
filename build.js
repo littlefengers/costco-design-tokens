@@ -1,4 +1,5 @@
 const StyleDictionary = require('style-dictionary');
+const {paramCase} = require('param-case');
 
 console.log('Build started...');
 console.log('\n==============================================');
@@ -18,6 +19,15 @@ StyleDictionary.registerTransform({
       return `${prop.value}px`;
   }
 });
+
+StyleDictionary.registerTransform({
+  name: 'name/cti/kebabCustom',
+  type: 'name',
+  transformer: function(prop,options){
+    return paramCase([options.prefix].concat(prop.path).join(' '));
+  }
+
+})
 
 
 // StyleDictionary.registerTransform({
