@@ -1,7 +1,7 @@
 {
   "type": {
     "font": {
-      "t1desktop": {
+      "t1-desktop": {
         "size": { "value": "{font.size.1.value}", "comment" : "alias of font.size.1"},
         "line-height": { "value": "{font.line-height.xl.value}", "comment" : "alias of font.line-height.xl"}
       },
@@ -34,11 +34,11 @@
         "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       },
       "t5-desktop": {
-        "size": { "value": "{font.size.1.value}","comment" : "alias of font.line-height.md" },
+        "size": { "value": "{font.size.5.value}","comment" : "alias of font.line-height.md" },
         "line-height": { "value": "{font.line-height.xl.value}","comment" : "alias of font.line-height.md" }
       },
       "t5-mobile": {
-        "size": { "value": "{font.size.5.value","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.5.value}","comment" : "alias of font.size.6" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "t6-desktop": {

@@ -3,21 +3,42 @@
       "color": {
         "primary" : {
           "default" : {
-            "text": {"value": "{color.white.value}"},
-            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
+            "background" : {"value": "{color.blue-500.value}", "comment" : "alias of color-blue-500"}
           },
           "focus" : {
-            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
           },
           "hover" : {
-            "background" : {"value": "#3071a9", "comment" : "alias of color-blue-500"}
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
+          }
+        },
+        "primary-alternate" : {
+          "default" : {
+            "background" : {"value": "{color.green-500.value}", "comment" : "alias of color-green-500"}
+          },
+          "focus" : {
+            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color-green-700"}
+          },
+          "hover" : {
+            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color-green-700"}
+          }
+        },
+        "secondary" : {
+          "default" : {
+            "background" : {"value": "{color.gray-300.value}", "comment" : "alias of color.gray-300"}
+          },
+          "focus" : {
+            "background" : {"value": "{color.gray-400.value}", "comment" : "alias of color.gray-400"}
+          },
+          "hover" : {
+            "background" : {"value": "{color.gray-400.value}", "comment" : "alias of color.gray-400"}
           }
         },
         "text":{"value": "{color.white.value}", "comment" : "default for all buttons"}
       },
       "size" : {
-        "border-width" : {"value" : "3"},
         "height" : {"value" : "40"}
-      } 
+      },
+      "radius" : {"value" : "3px"}
     }
 }

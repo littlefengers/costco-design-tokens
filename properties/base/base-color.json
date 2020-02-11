@@ -17,6 +17,8 @@
     "blue-700":{"value": "#2a6293"},
     "green-100":{"value": "#dff0d8"},
     "green-200":{"value": "#85c66a"},
+    "green-500":{"value": "#008000"},
+    "green-700":{"value": "#0b6e22"},
     "red-500":{"value": "#d32029"},
     "red-100":{"value": "#fdd6d6"},
     "yellow-200":{"value": "#ffcc00"},

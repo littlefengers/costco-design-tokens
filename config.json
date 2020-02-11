@@ -8,7 +8,8 @@
       "files": [{
         "destination": "_variables.scss",
         "format": "scss/variables"
-      }],
+      }
+    ],
       "transforms" : ["name/cti/kebabCustom","web/px"]
     }
   }
