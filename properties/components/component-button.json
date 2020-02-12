@@ -3,25 +3,27 @@
       "color": {
         "primary" : {
           "default" : {
-            "background" : {"value": "{color.blue-500.value}", "comment" : "alias of color-blue-500"}
+            "background" : {"value": "{color.blue-500.value}", "comment" : "alias of color.blue-500"}
           },
           "focus" : {
-            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
           },
           "hover" : {
-            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color-blue-700"}
-          }
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
+          },
+          "text" : {"value": "{color.blue-600.value}", "comment" : "alias of color.blue-600"}
         },
         "primary-alternate" : {
           "default" : {
-            "background" : {"value": "{color.green-500.value}", "comment" : "alias of color-green-500"}
+            "background" : {"value": "{color.green-500.value}", "comment" : "alias of color.green-500"}
           },
           "focus" : {
-            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color-green-700"}
+            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color.green-700"}
           },
           "hover" : {
-            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color-green-700"}
-          }
+            "background" : {"value": "{color.green-700.value}", "comment" : "alias of color.green-700"}
+          },
+          "text" : {"value": "{color.white.value}", "comment" : "alias of color.white"}
         },
         "secondary" : {
           "default" : {
@@ -32,12 +34,27 @@
           },
           "hover" : {
             "background" : {"value": "{color.gray-400.value}", "comment" : "alias of color.gray-400"}
-          }
+          },
+          "text" : {"value": "{color.blue-600.value}", "comment" : "alias of color.blue-600"}
         },
-        "text":{"value": "{color.white.value}", "comment" : "default for all buttons"}
+        "outline-primary" : {
+          "default" : {
+            "background" : {"value": "{color.white.value}", "comment" : "alias of color.white"}
+          },
+          "focus" : {
+            "background" : {"value": "{color.gray-200.value}", "comment" : "alias of color.gray-200"}
+          },
+          "hover" : {
+            "background" : {"value": "{color.gray-200.value}", "comment" : "alias of color.gray-200"}
+          },
+          "text" : {"value": "{color.blue-600.value}", "comment" : "alias of color.blue-600"}
+        }
       },
       "size" : {
-        "height" : {"value" : "40"}
+        "height" : {"value" : "40"},
+        "outline-primary" :{
+          "border-width" : {"value": "{size.border-width.thin.value}"}
+        }
       },
       "radius" : {"value" : "3px"}
     }
