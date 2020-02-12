@@ -9,9 +9,9 @@
             "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
           },
           "hover" : {
-            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700ssssss"}
           },
-          "text" : {"value": "{color.blue-600.value}", "comment" : "alias of color.blue-600"}
+          "text" : {"value": "{color.white.value}", "comment" : "alias of color.white"}
         },
         "primary-alternate" : {
           "default" : {

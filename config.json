@@ -4,9 +4,9 @@
     "scss": {
       "transformGroup": "scss",
       "prefix" : "cds",
-      "buildPath": "build/scss/",
+      "buildPath": "build/",
       "files": [{
-        "destination": "_variables.scss",
+        "destination": "_cds-variables.scss",
         "format": "scss/variables"
       }
     ],
