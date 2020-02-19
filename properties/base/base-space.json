@@ -8,15 +8,9 @@
     "xl": { "value": "32px" },
     "xxl": { "value": "48px" },
     "xxxl": { "value": "64px" },
-    "stack": {
-      "xxs": { "value": "0 0 4px 0" },
-      "xs": { "value": "0 0 8px 0" },
-      "sm": { "value": "0 0 12px 0" },
-      "md": { "value": "0 0 16px 0" },
-      "lg": { "value": "0 0 24px 0" },
-      "xl": { "value": "0 0 32px 0" },
-      "xxl": { "value": "0 0 48px 0" },
-      "xxxl": { "value": "0 0 64px 0" }
+    "inset": {
+      "md": { "value": "16px 16px 16px 16px"},
+      "xl": { "value": "32px 32px 32px 32px"}
     }
   }
 }

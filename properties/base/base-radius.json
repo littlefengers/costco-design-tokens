@@ -1,0 +1,6 @@
+{
+  "radius": {
+    "sm": { "value": "2px" },
+    "md": { "value": "3px" }
+  }
+}

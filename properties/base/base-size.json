@@ -4,6 +4,12 @@
         "thin": {"value": "1px"},
         "medium": {"value": "2px"},
         "thick": {"value": "3px"}
-    }
+    },
+    "icon-svg": {
+      "sm": {"value": "16px", "comment":"PLACEHOLDER"},
+      "md": {"value": "32px", "comment":"PLACEHOLDER"},
+      "lg": {"value": "48px" ,"comment":"PLACEHOLDER"},
+      "xl": {"value": "60px", "comment":"PLACEHOLDER"}
+  }
   }
 }

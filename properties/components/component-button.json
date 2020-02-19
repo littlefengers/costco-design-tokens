@@ -9,7 +9,7 @@
             "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
           },
           "hover" : {
-            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700ssssss"}
+            "background" : {"value": "{color.blue-700.value}", "comment" : "alias of color.blue-700"}
           },
           "text" : {"value": "{color.white.value}", "comment" : "alias of color.white"}
         },
@@ -47,16 +47,22 @@
           "hover" : {
             "background" : {"value": "{color.gray-200.value}", "comment" : "alias of color.gray-200"}
           },
+          "border": {"value": "{color.blue-500.value}", "comment" : "alias of color.blue-500"},
           "text" : {"value": "{color.blue-600.value}", "comment" : "alias of color.blue-600"}
         }
       },
       "size" : {
         "height" : {"value" : "40"},
+        "width" : {"value" : "100%"},
+        "border-width" : {"value": "0"},
         "outline-primary" :{
           "border-width" : {"value": "{size.border-width.thin.value}"}
         }
       },
-      "radius" : {"value" : "3px"},
-      "font" : {"size": {"value":"{font.size.5.value}"}}
+      "radius" : {"value" : "{radius.md.value}", "comment" : "alias of radius.md"},
+      "font" : {"size": {"value":"{font.size.5.value}"}},
+      "space" :{
+          
+      }
     }
 }

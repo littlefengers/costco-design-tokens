@@ -1,0 +1,30 @@
+{
+  "notifications": {
+    "color": {
+      "alert": {
+        "background" : {"value": "{color.yellow-200.value}", "comment" : "alias of color.yellow-200"},
+        "border" : {"value": "{color.yellow-100.value}", "comment" : "alias of color.yellow-100"},
+        "text" : {"value": "{color.gray-900.value}", "comment" : "alias of color.gray-900"}
+      },
+      "error": {
+        "background" : {"value": "{color.red-100.value}", "comment" : "alias of color.red-100"},
+        "border" : {"value": "{color.red-500.value}", "comment" : "alias of color.red-500"},
+        "text" : {"value": "{color.gray-900.value}", "comment" : "alias of color.gray-900"}
+      },
+      "general": {
+        "background" : {"value": "{color.blue-100.value}", "comment" : "alias of color.blue-100"},
+        "border" : {"value": "{color.blue-500.value}", "comment" : "alias of color.blue-500"},
+        "text" : {"value": "{color.gray-900.value}", "comment" : "alias of color.gray-900"}
+      },
+      "success": {
+        "background" : {"value": "{color.green-100.value}", "comment" : "alias of color.green-100"},
+        "border" : {"value": "{color.green-500.value}", "comment" : "alias of color.green-500"},
+        "text" : {"value": "{color.gray-900.value}", "comment" : "alias of color.gray-900"}
+      }
+    },
+    "size" : {
+      "border-width" :{"value":"{size.border-width.medium.value}", "comment" : "alias of size.border-width.medium"}
+    },
+    "radius" : {"value" : "{radius.md.value}", "comment" : "alias of radius.md"}
+  }
+}

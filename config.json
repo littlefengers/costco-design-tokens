@@ -7,7 +7,8 @@
       "buildPath": "build/sass/modules/",
       "files": [{
         "destination": "_cds-variables.scss",
-        "format": "scss/map-deep"
+        "format": "scss/map-deep",
+        "mapName": "cds-tokens"
       }
     ],
       "transforms" : ["name/cti/kebabCustom","web/px"]
