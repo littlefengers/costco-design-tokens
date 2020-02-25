@@ -9,6 +9,7 @@
     "xxl": { "value": "48px" },
     "xxxl": { "value": "64px" },
     "inset": {
+      "sm": { "value": "12px 12px 12px 12px"},
       "md": { "value": "16px 16px 16px 16px"},
       "xl": { "value": "32px 32px 32px 32px"}
     }
