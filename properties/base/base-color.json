@@ -25,13 +25,13 @@
     "yellow-100":{"value": "#fff8d2"},
     "white":{"value": "#ffffff"},
     "black":{"value": "#000000"},
-    "font" : {
+    "text" : {
       "default" : {"value": "{color.gray-900.value}", "comment" : "alias of color-gray-900"},
       "medium" : {"value": "{color.gray-800.value}", "comment" : "alias of color-gray-800"},
       "light" : {"value": "{color.gray-700.value}", "comment" : "alias of color-gray-700"},
       "link" : {"value": "{color.blue-600.value}", "comment" : "alias of color-blue-600"},
       "error" : {"value": "{color.red-500.value}", "comment" : "alias of color-red-500"},
-      "success" : {"value": "{color.blue-600.value}","comment" : "alias of color-red-500"}
+      "success" : {"value": "{color.green-500.value}","comment" : "alias of color-green-500"}
     }
   }
 }

@@ -2,15 +2,15 @@
   "type": {
     "font": {
       "t1-desktop": {
-        "size": { "value": "{font.size.1.value}", "comment" : "alias of font.size.1"},
+        "size": { "value": "{font.size.7.value}", "comment" : "alias of font.size.7"},
         "line-height": { "value": "{font.line-height.xl.value}", "comment" : "alias of font.line-height.xl"}
       },
       "t1-mobile": {
-        "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2"},
+        "size": { "value": "{font.size.6.value}","comment" : "alias of font.size.6"},
         "line-height": { "value": "{font.line-height.lg.value}","comment" : "alias of font.line-height.lg"}
       },
       "t2-desktop": {
-        "size": { "value": "{font.size.3.value}","comment" : "alias of font.size.3" },
+        "size": { "value": "{font.size.5.value}","comment" : "alias of font.size.5" },
         "line-height": { "value": "{font.line-height.xl.value}","comment" : "alias of font.line-height.xl" }
       },
       "t2-mobile": {
@@ -22,7 +22,7 @@
         "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       },
       "t3-mobile": {
-        "size": { "value": "{font.size.5.value}","comment" : "alias of font.line-height.md" },
+        "size": { "value": "{font.size.3.value}","comment" : "alias of font.line-height.md" },
         "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       },
       "t4-desktop": {
@@ -34,35 +34,35 @@
         "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       },
       "t5-desktop": {
-        "size": { "value": "{font.size.5.value}","comment" : "alias of font.line-height.md" },
+        "size": { "value": "{font.size.3.value}","comment" : "alias of font.size.3" },
         "line-height": { "value": "{font.line-height.xl.value}","comment" : "alias of font.line-height.md" }
       },
       "t5-mobile": {
-        "size": { "value": "{font.size.5.value}","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.3.value}","comment" : "alias of font.size.3" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "t6-desktop": {
-        "size": { "value": "{font.size.6.value}","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "t6-mobile": {
-        "size": { "value": "{font.size.6.value}","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "t7-desktop": {
-        "size": { "value": "{font.size.7.value}","comment" : "alias of font.size.7" },
+        "size": { "value": "{font.size.1.value}","comment" : "alias of font.size.1" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "t7-mobile": {
-        "size": { "value": "{font.size.7.value}","comment" : "alias of font.size.7" },
+        "size": { "value": "{font.size.1.value}","comment" : "alias of font.size.1" },
         "line-height": { "value": "{font.line-height.sm.value}","comment" : "alias of font.line-height.sm" }
       },
       "body-copy-desktop": {
-        "size": { "value": "{font.size.6.value}","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },
         "line-height": { "value": "{font.line-height.xl.value}","comment" : "alias of font.line-height.md" }
       },
       "body-copy-mobile": {
-        "size": { "value": "{font.size.6.value}","comment" : "alias of font.size.6" },
+        "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },
         "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       }
     }
