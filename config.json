@@ -4,7 +4,7 @@
     "scss": {
       "transformGroup": "scss",
       "prefix" : "cds",
-      "buildPath": "build/sass/cds/",
+      "buildPath": "build/scss/cds/",
       "files": [{
         "destination": "_cds-variables.scss",
         "format": "scss/map-deep",
