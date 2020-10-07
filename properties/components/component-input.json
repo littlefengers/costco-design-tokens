@@ -1,0 +1,71 @@
+{
+  "label": {
+    "color": {
+      "error": {
+        "text": {
+          "value": "{color.text.error.value}"
+        }
+      },
+      "focus": {
+        "text": {
+          "value": "{color.blue-500.value}"
+        }
+      },
+      "complete": {
+        "text": {
+          "value": "{color.gray-900.value}"
+        }
+      },
+      "inactive": {
+        "text": {
+          "value": "{color.gray-900.value}"
+        }
+      }
+    }
+  },
+  "input": {
+    "color": {
+      "error": {
+        "border": {
+          "value": "{color.border.error.value}"
+        },
+        "text": {
+          "value": "{color.border.error.value}"
+        }
+      },
+      "focus": {
+        "border": {
+          "value": "{color.blue-500.value}"
+        },
+        "text": {
+          "value": "{color.border.error.value}"
+        }
+      }
+    },
+    "active": {
+      "text": {
+        "value": "{color.text.default.value}"
+      }
+    },
+    "complete": {
+      "text": {
+        "value": "{color.text.default.value}"
+      }
+    },
+
+    "size": {
+      "default": {
+        "border-width": { "value": "{size.border-width.thin.value}" }
+      },
+      "active": {
+        "border-width": { "value": "{size.border-width.medium.value}" }
+      },
+      "focus": {
+        "border-width": { "value": "{size.border-width.medium.value}" }
+      }
+    },
+    "radius": {
+        "value": "{radius.md.value}"
+    }
+  }
+}

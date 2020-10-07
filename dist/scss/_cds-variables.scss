@@ -1,0 +1,504 @@
+
+/*
+  Do not edit directly
+  Generated on Wed, 07 Oct 2020 03:04:07 GMT
+*/
+
+$cds-bp-sm: 320px !default;
+$cds-bp-md: 668px !default;
+$cds-bp-lg: 769px !default;
+$cds-color-costco-blue: #005dab !default;
+$cds-color-costco-red: #e51937 !default;
+$cds-color-gray-100: #fafafa !default;
+$cds-color-gray-200: #eeeeee !default;
+$cds-color-gray-300: #eaeaea !default;
+$cds-color-gray-400: #d9d9d9 !default;
+$cds-color-gray-500: #cccccc !default;
+$cds-color-gray-600: #9c9c9c !default;
+$cds-color-gray-700: #707070 !default;
+$cds-color-gray-800: #5f5f5f !default;
+$cds-color-gray-900: #333333 !default;
+$cds-color-blue-100: #eff7fb !default;
+$cds-color-blue-500: #3071a9 !default;
+$cds-color-blue-600: #0060a9 !default;
+$cds-color-blue-700: #2a6293 !default;
+$cds-color-green-100: #dff0d8 !default;
+$cds-color-green-200: #85c66a !default;
+$cds-color-green-500: #008000 !default;
+$cds-color-green-700: #0b6e22 !default;
+$cds-color-red-500: #d32029 !default;
+$cds-color-red-100: #fdd6d6 !default;
+$cds-color-yellow-200: #ffcc00 !default;
+$cds-color-yellow-100: #fff8d2 !default;
+$cds-color-white: #ffffff !default;
+$cds-color-black: #000000 !default;
+$cds-color-text-default: #333333 !default; // alias of color-gray-900
+$cds-color-text-medium: #5f5f5f !default; // alias of color-gray-800
+$cds-color-text-light: #707070 !default; // alias of color-gray-700
+$cds-color-text-link: #0060a9 !default; // alias of color-blue-600
+$cds-color-text-error: #d32029 !default; // alias of color-red-500
+$cds-color-text-success: #008000 !default; // alias of color-green-500
+$cds-color-border-error: #d32029 !default; // alias of color-red-500
+$cds-color-border-success: #008000 !default; // alias of color-green-500
+$cds-font-size-1: 12px !default;
+$cds-font-size-2: 14px !default;
+$cds-font-size-3: 16px !default;
+$cds-font-size-4: 18px !default;
+$cds-font-size-5: 22px !default;
+$cds-font-size-6: 24px !default;
+$cds-font-size-7: 28px !default;
+$cds-font-line-height-xl: 32px !default;
+$cds-font-line-height-lg: 28px !default;
+$cds-font-line-height-md: 24px !default;
+$cds-font-line-height-sm: 20px !default;
+$cds-font-weight-default: 400 !default;
+$cds-font-weight-bold: 700 !default;
+$cds-radius-sm: 2px !default;
+$cds-radius-md: 3px !default;
+$cds-size-border-width-thin: 1px !default;
+$cds-size-border-width-medium: 2px !default;
+$cds-size-border-width-thick: 3px !default;
+$cds-size-icon-svg-sm: 16px !default; // PLACEHOLDER
+$cds-size-icon-svg-md: 32px !default; // PLACEHOLDER
+$cds-size-icon-svg-lg: 48px !default; // PLACEHOLDER
+$cds-size-icon-svg-xl: 60px !default; // PLACEHOLDER
+$cds-space-xxs: 4px !default;
+$cds-space-xs: 8px !default;
+$cds-space-sm: 12px !default;
+$cds-space-md: 16px !default;
+$cds-space-lg: 24px !default;
+$cds-space-xl: 32px !default;
+$cds-space-xxl: 48px !default;
+$cds-space-xxxl: 64px !default;
+$cds-space-inset-sm: 12px 12px 12px 12px !default;
+$cds-space-inset-md: 16px 16px 16px 16px !default;
+$cds-space-inset-xl: 32px 32px 32px 32px !default;
+$cds-type-font-t1-desktop-size: 28px !default; // alias of font.size.7
+$cds-type-font-t1-desktop-line-height: 32px !default; // alias of font.line-height.xl
+$cds-type-font-t1-mobile-size: 24px !default; // alias of font.size.6
+$cds-type-font-t1-mobile-line-height: 28px !default; // alias of font.line-height.lg
+$cds-type-font-t2-desktop-size: 22px !default; // alias of font.size.5
+$cds-type-font-t2-desktop-line-height: 32px !default; // alias of font.line-height.xl
+$cds-type-font-t2-mobile-size: 18px !default; // alias of font.size.4
+$cds-type-font-t2-mobile-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t3-desktop-size: 18px !default; // alias of font.size.4.value
+$cds-type-font-t3-desktop-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t3-mobile-size: 16px !default; // alias of font.line-height.md
+$cds-type-font-t3-mobile-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t4-desktop-size: 18px !default; // alias of font.size.4
+$cds-type-font-t4-desktop-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t4-mobile-size: 18px !default; // alias of font.size.4
+$cds-type-font-t4-mobile-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t5-desktop-size: 16px !default; // alias of font.size.3
+$cds-type-font-t5-desktop-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t5-mobile-size: 16px !default; // alias of font.size.3
+$cds-type-font-t5-mobile-line-height: 24px !default; // alias of font.line-height.md
+$cds-type-font-t6-desktop-size: 14px !default; // alias of font.size.2
+$cds-type-font-t6-desktop-line-height: 20px !default; // alias of font.line-height.sm
+$cds-type-font-t6-mobile-size: 14px !default; // alias of font.size.2
+$cds-type-font-t6-mobile-line-height: 20px !default; // alias of font.line-height.sm
+$cds-type-font-t7-desktop-size: 12px !default; // alias of font.size.1
+$cds-type-font-t7-desktop-line-height: 20px !default; // alias of font.line-height.sm
+$cds-type-font-t7-mobile-size: 12px !default; // alias of font.size.1
+$cds-type-font-t7-mobile-line-height: 20px !default; // alias of font.line-height.sm
+$cds-type-font-body-copy-desktop-size: 14px !default; // alias of font.size.2
+$cds-type-font-body-copy-desktop-line-height: 32px !default; // alias of font.line-height.md
+$cds-type-font-body-copy-mobile-size: 14px !default; // alias of font.size.2
+$cds-type-font-body-copy-mobile-line-height: 24px !default; // alias of font.line-height.md
+$cds-buttons-color-primary-default-background: #3071a9 !default; // alias of color.blue-500
+$cds-buttons-color-primary-focus-background: #2a6293 !default; // alias of color.blue-700
+$cds-buttons-color-primary-hover-background: #2a6293 !default; // alias of color.blue-700
+$cds-buttons-color-primary-text: #ffffff !default; // alias of color.white
+$cds-buttons-color-primary-alternate-default-background: #008000 !default; // alias of color.green-500
+$cds-buttons-color-primary-alternate-focus-background: #0b6e22 !default; // alias of color.green-700
+$cds-buttons-color-primary-alternate-hover-background: #0b6e22 !default; // alias of color.green-700
+$cds-buttons-color-primary-alternate-text: #ffffff !default; // alias of color.white
+$cds-buttons-color-secondary-default-background: #eaeaea !default; // alias of color.gray-300
+$cds-buttons-color-secondary-focus-background: #d9d9d9 !default; // alias of color.gray-400
+$cds-buttons-color-secondary-hover-background: #d9d9d9 !default; // alias of color.gray-400
+$cds-buttons-color-secondary-text: #0060a9 !default; // alias of color.blue-600
+$cds-buttons-color-outline-primary-default-background: #ffffff !default; // alias of color.white
+$cds-buttons-color-outline-primary-focus-background: #eeeeee !default; // alias of color.gray-200
+$cds-buttons-color-outline-primary-hover-background: #eeeeee !default; // alias of color.gray-200
+$cds-buttons-color-outline-primary-border: #3071a9 !default; // alias of color.blue-500
+$cds-buttons-color-outline-primary-text: #0060a9 !default; // alias of color.blue-600
+$cds-buttons-color-outline-secondary-default-background: #fafafa !default; // alias of gray-100
+$cds-buttons-color-outline-secondary-focus-background: #d9d9d9 !default; // alias of color gray-400
+$cds-buttons-color-outline-secondary-hover-background: #d9d9d9 !default; // alias of color gray-400
+$cds-buttons-color-outline-secondary-border: #cccccc !default; // alias of color.gray-500
+$cds-buttons-color-outline-secondary-text: #0060a9 !default; // alias of color.blue-600
+$cds-buttons-size-height: 40 !default;
+$cds-buttons-size-border-width: 0 !default;
+$cds-buttons-size-outline-primary-border-width: 1px !default;
+$cds-buttons-size-outline-secondary-border-width: 1px !default;
+$cds-buttons-radius: 3px !default; // alias of radius.md
+$cds-buttons-font-size: 16px !default; // alias of font.size.3
+$cds-dividers-color-border: #cccccc !default; // alias of color.gray-500
+$cds-dividers-size-border-width: 1px !default; // alias of size.border-width.thin
+$cds-label-color-error-text: #d32029 !default;
+$cds-label-color-focus-text: #3071a9 !default;
+$cds-label-color-complete-text: #333333 !default;
+$cds-label-color-inactive-text: #333333 !default;
+$cds-input-color-error-border: #d32029 !default;
+$cds-input-color-error-text: #d32029 !default;
+$cds-input-color-focus-border: #3071a9 !default;
+$cds-input-color-focus-text: #d32029 !default;
+$cds-input-active-text: #333333 !default;
+$cds-input-complete-text: #333333 !default;
+$cds-input-size-default-border-width: 1px !default;
+$cds-input-size-active-border-width: 2px !default;
+$cds-input-size-focus-border-width: 2px !default;
+$cds-input-radius: 3px !default;
+$cds-list-space-margin: 0 8px 0 0 !default;
+$cds-notifications-color-alert-background: #ffcc00 !default; // alias of color.yellow-200
+$cds-notifications-color-alert-border: #fff8d2 !default; // alias of color.yellow-100
+$cds-notifications-color-alert-text: #333333 !default; // alias of color.gray-900
+$cds-notifications-color-error-background: #fdd6d6 !default; // alias of color.red-100
+$cds-notifications-color-error-border: #d32029 !default; // alias of color.red-500
+$cds-notifications-color-error-text: #333333 !default; // alias of color.gray-900
+$cds-notifications-color-general-background: #eff7fb !default; // alias of color.blue-100
+$cds-notifications-color-general-border: #3071a9 !default; // alias of color.blue-500
+$cds-notifications-color-general-text: #333333 !default; // alias of color.gray-900
+$cds-notifications-color-success-background: #dff0d8 !default; // alias of color.green-100
+$cds-notifications-color-success-border: #008000 !default; // alias of color.green-500
+$cds-notifications-color-success-text: #333333 !default; // alias of color.gray-900
+$cds-notifications-size-border-width: 2px !default; // alias of size.border-width.medium
+$cds-notifications-radius: 3px !default; // alias of radius.md
+
+$cds-tokens: (
+  'bp': (
+    'sm': $cds-bp-sm,
+    'md': $cds-bp-md,
+    'lg': $cds-bp-lg
+  ),
+  'color': (
+    'costco-blue': $cds-color-costco-blue,
+    'costco-red': $cds-color-costco-red,
+    'gray-100': $cds-color-gray-100,
+    'gray-200': $cds-color-gray-200,
+    'gray-300': $cds-color-gray-300,
+    'gray-400': $cds-color-gray-400,
+    'gray-500': $cds-color-gray-500,
+    'gray-600': $cds-color-gray-600,
+    'gray-700': $cds-color-gray-700,
+    'gray-800': $cds-color-gray-800,
+    'gray-900': $cds-color-gray-900,
+    'blue-100': $cds-color-blue-100,
+    'blue-500': $cds-color-blue-500,
+    'blue-600': $cds-color-blue-600,
+    'blue-700': $cds-color-blue-700,
+    'green-100': $cds-color-green-100,
+    'green-200': $cds-color-green-200,
+    'green-500': $cds-color-green-500,
+    'green-700': $cds-color-green-700,
+    'red-500': $cds-color-red-500,
+    'red-100': $cds-color-red-100,
+    'yellow-200': $cds-color-yellow-200,
+    'yellow-100': $cds-color-yellow-100,
+    'white': $cds-color-white,
+    'black': $cds-color-black,
+    'text': (
+      'default': $cds-color-text-default,
+      'medium': $cds-color-text-medium,
+      'light': $cds-color-text-light,
+      'link': $cds-color-text-link,
+      'error': $cds-color-text-error,
+      'success': $cds-color-text-success
+    ),
+    'border': (
+      'error': $cds-color-border-error,
+      'success': $cds-color-border-success
+    )
+  ),
+  'font': (
+    'size': (
+      '1': $cds-font-size-1,
+      '2': $cds-font-size-2,
+      '3': $cds-font-size-3,
+      '4': $cds-font-size-4,
+      '5': $cds-font-size-5,
+      '6': $cds-font-size-6,
+      '7': $cds-font-size-7
+    ),
+    'line-height': (
+      'xl': $cds-font-line-height-xl,
+      'lg': $cds-font-line-height-lg,
+      'md': $cds-font-line-height-md,
+      'sm': $cds-font-line-height-sm
+    ),
+    'weight': (
+      'default': $cds-font-weight-default,
+      'bold': $cds-font-weight-bold
+    )
+  ),
+  'radius': (
+    'sm': $cds-radius-sm,
+    'md': $cds-radius-md
+  ),
+  'size': (
+    'border-width': (
+      'thin': $cds-size-border-width-thin,
+      'medium': $cds-size-border-width-medium,
+      'thick': $cds-size-border-width-thick
+    ),
+    'icon-svg': (
+      'sm': $cds-size-icon-svg-sm,
+      'md': $cds-size-icon-svg-md,
+      'lg': $cds-size-icon-svg-lg,
+      'xl': $cds-size-icon-svg-xl
+    )
+  ),
+  'space': (
+    'xxs': $cds-space-xxs,
+    'xs': $cds-space-xs,
+    'sm': $cds-space-sm,
+    'md': $cds-space-md,
+    'lg': $cds-space-lg,
+    'xl': $cds-space-xl,
+    'xxl': $cds-space-xxl,
+    'xxxl': $cds-space-xxxl,
+    'inset': (
+      'sm': $cds-space-inset-sm,
+      'md': $cds-space-inset-md,
+      'xl': $cds-space-inset-xl
+    )
+  ),
+  'type': (
+    'font': (
+      't1-desktop': (
+        'size': $cds-type-font-t1-desktop-size,
+        'line-height': $cds-type-font-t1-desktop-line-height
+      ),
+      't1-mobile': (
+        'size': $cds-type-font-t1-mobile-size,
+        'line-height': $cds-type-font-t1-mobile-line-height
+      ),
+      't2-desktop': (
+        'size': $cds-type-font-t2-desktop-size,
+        'line-height': $cds-type-font-t2-desktop-line-height
+      ),
+      't2-mobile': (
+        'size': $cds-type-font-t2-mobile-size,
+        'line-height': $cds-type-font-t2-mobile-line-height
+      ),
+      't3-desktop': (
+        'size': $cds-type-font-t3-desktop-size,
+        'line-height': $cds-type-font-t3-desktop-line-height
+      ),
+      't3-mobile': (
+        'size': $cds-type-font-t3-mobile-size,
+        'line-height': $cds-type-font-t3-mobile-line-height
+      ),
+      't4-desktop': (
+        'size': $cds-type-font-t4-desktop-size,
+        'line-height': $cds-type-font-t4-desktop-line-height
+      ),
+      't4-mobile': (
+        'size': $cds-type-font-t4-mobile-size,
+        'line-height': $cds-type-font-t4-mobile-line-height
+      ),
+      't5-desktop': (
+        'size': $cds-type-font-t5-desktop-size,
+        'line-height': $cds-type-font-t5-desktop-line-height
+      ),
+      't5-mobile': (
+        'size': $cds-type-font-t5-mobile-size,
+        'line-height': $cds-type-font-t5-mobile-line-height
+      ),
+      't6-desktop': (
+        'size': $cds-type-font-t6-desktop-size,
+        'line-height': $cds-type-font-t6-desktop-line-height
+      ),
+      't6-mobile': (
+        'size': $cds-type-font-t6-mobile-size,
+        'line-height': $cds-type-font-t6-mobile-line-height
+      ),
+      't7-desktop': (
+        'size': $cds-type-font-t7-desktop-size,
+        'line-height': $cds-type-font-t7-desktop-line-height
+      ),
+      't7-mobile': (
+        'size': $cds-type-font-t7-mobile-size,
+        'line-height': $cds-type-font-t7-mobile-line-height
+      ),
+      'body-copy-desktop': (
+        'size': $cds-type-font-body-copy-desktop-size,
+        'line-height': $cds-type-font-body-copy-desktop-line-height
+      ),
+      'body-copy-mobile': (
+        'size': $cds-type-font-body-copy-mobile-size,
+        'line-height': $cds-type-font-body-copy-mobile-line-height
+      )
+    )
+  ),
+  'buttons': (
+    'color': (
+      'primary': (
+        'default': (
+          'background': $cds-buttons-color-primary-default-background
+        ),
+        'focus': (
+          'background': $cds-buttons-color-primary-focus-background
+        ),
+        'hover': (
+          'background': $cds-buttons-color-primary-hover-background
+        ),
+        'text': $cds-buttons-color-primary-text
+      ),
+      'primary-alternate': (
+        'default': (
+          'background': $cds-buttons-color-primary-alternate-default-background
+        ),
+        'focus': (
+          'background': $cds-buttons-color-primary-alternate-focus-background
+        ),
+        'hover': (
+          'background': $cds-buttons-color-primary-alternate-hover-background
+        ),
+        'text': $cds-buttons-color-primary-alternate-text
+      ),
+      'secondary': (
+        'default': (
+          'background': $cds-buttons-color-secondary-default-background
+        ),
+        'focus': (
+          'background': $cds-buttons-color-secondary-focus-background
+        ),
+        'hover': (
+          'background': $cds-buttons-color-secondary-hover-background
+        ),
+        'text': $cds-buttons-color-secondary-text
+      ),
+      'outline-primary': (
+        'default': (
+          'background': $cds-buttons-color-outline-primary-default-background
+        ),
+        'focus': (
+          'background': $cds-buttons-color-outline-primary-focus-background
+        ),
+        'hover': (
+          'background': $cds-buttons-color-outline-primary-hover-background
+        ),
+        'border': $cds-buttons-color-outline-primary-border,
+        'text': $cds-buttons-color-outline-primary-text
+      ),
+      'outline-secondary': (
+        'default': (
+          'background': $cds-buttons-color-outline-secondary-default-background
+        ),
+        'focus': (
+          'background': $cds-buttons-color-outline-secondary-focus-background
+        ),
+        'hover': (
+          'background': $cds-buttons-color-outline-secondary-hover-background
+        ),
+        'border': $cds-buttons-color-outline-secondary-border,
+        'text': $cds-buttons-color-outline-secondary-text
+      )
+    ),
+    'size': (
+      'height': $cds-buttons-size-height,
+      'border-width': $cds-buttons-size-border-width,
+      'outline-primary': (
+        'border-width': $cds-buttons-size-outline-primary-border-width
+      ),
+      'outline-secondary': (
+        'border-width': $cds-buttons-size-outline-secondary-border-width
+      )
+    ),
+    'radius': $cds-buttons-radius,
+    'font': (
+      'size': $cds-buttons-font-size
+    ),
+    'space': (
+
+    )
+  ),
+  'dividers': (
+    'color': (
+      'border': $cds-dividers-color-border
+    ),
+    'size': (
+      'border-width': $cds-dividers-size-border-width
+    )
+  ),
+  'label': (
+    'color': (
+      'error': (
+        'text': $cds-label-color-error-text
+      ),
+      'focus': (
+        'text': $cds-label-color-focus-text
+      ),
+      'complete': (
+        'text': $cds-label-color-complete-text
+      ),
+      'inactive': (
+        'text': $cds-label-color-inactive-text
+      )
+    )
+  ),
+  'input': (
+    'color': (
+      'error': (
+        'border': $cds-input-color-error-border,
+        'text': $cds-input-color-error-text
+      ),
+      'focus': (
+        'border': $cds-input-color-focus-border,
+        'text': $cds-input-color-focus-text
+      )
+    ),
+    'active': (
+      'text': $cds-input-active-text
+    ),
+    'complete': (
+      'text': $cds-input-complete-text
+    ),
+    'size': (
+      'default': (
+        'border-width': $cds-input-size-default-border-width
+      ),
+      'active': (
+        'border-width': $cds-input-size-active-border-width
+      ),
+      'focus': (
+        'border-width': $cds-input-size-focus-border-width
+      )
+    ),
+    'radius': $cds-input-radius
+  ),
+  'list': (
+    'space': (
+      'margin': $cds-list-space-margin
+    )
+  ),
+  'notifications': (
+    'color': (
+      'alert': (
+        'background': $cds-notifications-color-alert-background,
+        'border': $cds-notifications-color-alert-border,
+        'text': $cds-notifications-color-alert-text
+      ),
+      'error': (
+        'background': $cds-notifications-color-error-background,
+        'border': $cds-notifications-color-error-border,
+        'text': $cds-notifications-color-error-text
+      ),
+      'general': (
+        'background': $cds-notifications-color-general-background,
+        'border': $cds-notifications-color-general-border,
+        'text': $cds-notifications-color-general-text
+      ),
+      'success': (
+        'background': $cds-notifications-color-success-background,
+        'border': $cds-notifications-color-success-border,
+        'text': $cds-notifications-color-success-text
+      )
+    ),
+    'size': (
+      'border-width': $cds-notifications-size-border-width
+    ),
+    'radius': $cds-notifications-radius
+  )
+);

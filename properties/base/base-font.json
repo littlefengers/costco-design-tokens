@@ -1,19 +1,19 @@
 {
     "font" : {
         "size" : {
-            "7" : {"value": "28"},
-            "6" : {"value": "24"},
-            "5" : {"value": "22"},
-            "4" : {"value": "18"},
-            "3" : {"value": "16"},
-            "2" : {"value": "14"},
-            "1" : {"value": "12"}
+            "7" : {"value": "28px"},
+            "6" : {"value": "24px"},
+            "5" : {"value": "22px"},
+            "4" : {"value": "18px"},
+            "3" : {"value": "16px"},
+            "2" : {"value": "14px"},
+            "1" : {"value": "12px"}
         },
         "line-height" : {
-            "xl" :{"value": "32"},
-            "lg" :{"value": "28"},
-            "md" :{"value": "24"},
-            "sm" :{"value": "20"}
+            "xl" :{"value": "32px"},
+            "lg" :{"value": "28px"},
+            "md" :{"value": "24px"},
+            "sm" :{"value": "20px"}
         },
         "weight" : {
             "default" : {"value" : "400"},

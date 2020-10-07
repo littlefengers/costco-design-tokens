@@ -1,0 +1,10 @@
+{
+  "dividers": {
+    "color": {
+        "border": {"value": "{color.gray-500.value}", "comment" : "alias of color.gray-500"}
+    },
+    "size" : {
+      "border-width" :{"value":"{size.border-width.thin.value}", "comment" : "alias of size.border-width.thin"}
+    }
+  }
+}

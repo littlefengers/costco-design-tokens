@@ -32,6 +32,10 @@
       "link" : {"value": "{color.blue-600.value}", "comment" : "alias of color-blue-600"},
       "error" : {"value": "{color.red-500.value}", "comment" : "alias of color-red-500"},
       "success" : {"value": "{color.green-500.value}","comment" : "alias of color-green-500"}
+    },
+    "border" : {
+      "error" : {"value": "{color.red-500.value}", "comment" : "alias of color-red-500"},
+      "success" : {"value": "{color.green-500.value}","comment" : "alias of color-green-500"}
     }
   }
 }

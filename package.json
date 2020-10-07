@@ -1,10 +1,15 @@
 {
-  "name": "style-dictionary-custom-transforms",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build/index.js",
+  "name": "cds-tokens",
+  "version": "0.0.1",
+  "description": "Design Tokens for Costco Design System",
+  "author": "Costco Wholesale - UX Design",
+  "repository": {
+    "type": "git",
+    "url": "https://littlefengers@github.com/littlefengers/costco-design-tokens.git"
+  },
+  "main": "dist/scss/_cds-variables.scss",
   "files": [
-    "build",
+    "dist",
     "properties"
   ],
   "scripts": {
@@ -12,10 +17,9 @@
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "2.8.3"
+    "style-dictionary": "2.10.1"
   },
   "dependencies": {
     "param-case": "^3.0.3"

@@ -12,8 +12,7 @@ StyleDictionary.registerTransform({
   type: 'value',
   matcher: function(prop) {
       // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
-      console.log(prop);
-      return (prop.path[0] === 'space' && !prop.path[1]==="stack") || prop.path[1] == "size" || prop.path[1] == "line-height";
+      return (prop.path[0] === 'space' && !prop.path[1]==="stack");
   },
   transformer: function(prop) {
     //Will need to write a custom transform that splits
