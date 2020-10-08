@@ -65,7 +65,7 @@
         }
       },
       "size" : {
-        "height" : {"value" : "40"},
+        "height" : {"value" : "40px"},
         "border-width" : {"value": "0"},
         "outline-primary" :{
           "border-width" : {"value": "{size.border-width.thin.value}"}
