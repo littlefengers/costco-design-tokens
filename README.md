@@ -9,7 +9,7 @@
 | Notification | Complete              |
 | Typography   | Complete              |
 
-## Installation**
+## Installation
 
 CDS design tokens are available as a npm package on [npm](https://www.npmjs.com/)
 
