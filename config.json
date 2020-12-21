@@ -12,6 +12,15 @@
       }
     ],
       "transforms" : ["name/cti/kebabCustom","web/px"]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "dist/js/",
+      "files": [{
+        "destination": "cds-variables.js",
+        "format": "javascript/es6"
+      }],
+      "transforms" : ["name/cti/pascal"]
     }
   }
 }

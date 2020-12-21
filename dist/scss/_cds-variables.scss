@@ -1,7 +1,7 @@
 
 /*
   Do not edit directly
-  Generated on Thu, 05 Nov 2020 21:40:22 GMT
+  Generated on Mon, 21 Dec 2020 22:52:00 GMT
 */
 
 $cds-bp-sm: 320px !default;
@@ -137,20 +137,27 @@ $cds-buttons-radius: 3px !default; // alias of radius.md
 $cds-buttons-font-size: 16px !default; // alias of font.size.3
 $cds-dividers-color-border: #cccccc !default; // alias of color.gray-500
 $cds-dividers-size-border-width: 1px !default; // alias of size.border-width.thin
-$cds-label-color-error-text: #d32029 !default;
-$cds-label-color-focus-text: #3071a9 !default;
-$cds-label-color-complete-text: #333333 !default;
-$cds-label-color-inactive-text: #333333 !default;
+$cds-feedback-text-space-margin: 0 0 0 4px !default;
+$cds-help-link-color-text: #0060a9 !default;
+$cds-help-link-space-margin: 0 0 0 4px !default;
+$cds-help-text-color-default-text: #707070 !default;
+$cds-help-text-color-error-text: #d32029 !default;
+$cds-help-text-font-error-weight: 700 !default;
+$cds-help-text-space-margin: 0 0 0 4px !default;
+$cds-input-active-text: #333333 !default;
 $cds-input-color-error-border: #d32029 !default;
 $cds-input-color-error-text: #d32029 !default;
 $cds-input-color-focus-border: #3071a9 !default;
 $cds-input-color-focus-text: #d32029 !default;
-$cds-input-active-text: #333333 !default;
 $cds-input-complete-text: #333333 !default;
-$cds-input-size-default-border-width: 1px !default;
-$cds-input-size-active-border-width: 2px !default;
-$cds-input-size-focus-border-width: 2px !default;
 $cds-input-radius: 3px !default;
+$cds-input-size-active-border-width: 2px !default;
+$cds-input-size-default-border-width: 1px !default;
+$cds-input-size-focus-border-width: 2px !default;
+$cds-label-color-complete-text: #333333 !default;
+$cds-label-color-error-text: #d32029 !default;
+$cds-label-color-focus-text: #3071a9 !default;
+$cds-label-color-inactive-text: #333333 !default;
 $cds-list-space-margin: 0 8px 0 0 !default;
 $cds-notifications-color-alert-background: #ffcc00 !default; // alias of color.yellow-200
 $cds-notifications-color-alert-border: #fff8d2 !default; // alias of color.yellow-100
@@ -428,23 +435,41 @@ $cds-tokens: (
       'border-width': $cds-dividers-size-border-width
     )
   ),
-  'label': (
+  'feedback-text': (
+    'space': (
+      'margin': $cds-feedback-text-space-margin
+    )
+  ),
+  'help-link': (
     'color': (
+      'text': $cds-help-link-color-text
+    ),
+    'space': (
+      'margin': $cds-help-link-space-margin
+    )
+  ),
+  'help-text': (
+    'color': (
+      'default': (
+        'text': $cds-help-text-color-default-text
+      ),
       'error': (
-        'text': $cds-label-color-error-text
-      ),
-      'focus': (
-        'text': $cds-label-color-focus-text
-      ),
-      'complete': (
-        'text': $cds-label-color-complete-text
-      ),
-      'inactive': (
-        'text': $cds-label-color-inactive-text
+        'text': $cds-help-text-color-error-text
       )
+    ),
+    'font': (
+      'error': (
+        'weight': $cds-help-text-font-error-weight
+      )
+    ),
+    'space': (
+      'margin': $cds-help-text-space-margin
     )
   ),
   'input': (
+    'active': (
+      'text': $cds-input-active-text
+    ),
     'color': (
       'error': (
         'border': $cds-input-color-error-border,
@@ -455,24 +480,37 @@ $cds-tokens: (
         'text': $cds-input-color-focus-text
       )
     ),
-    'active': (
-      'text': $cds-input-active-text
-    ),
     'complete': (
       'text': $cds-input-complete-text
     ),
+    'radius': $cds-input-radius,
     'size': (
-      'default': (
-        'border-width': $cds-input-size-default-border-width
-      ),
       'active': (
         'border-width': $cds-input-size-active-border-width
+      ),
+      'default': (
+        'border-width': $cds-input-size-default-border-width
       ),
       'focus': (
         'border-width': $cds-input-size-focus-border-width
       )
-    ),
-    'radius': $cds-input-radius
+    )
+  ),
+  'label': (
+    'color': (
+      'complete': (
+        'text': $cds-label-color-complete-text
+      ),
+      'error': (
+        'text': $cds-label-color-error-text
+      ),
+      'focus': (
+        'text': $cds-label-color-focus-text
+      ),
+      'inactive': (
+        'text': $cds-label-color-inactive-text
+      )
+    )
   ),
   'list': (
     'space': (
