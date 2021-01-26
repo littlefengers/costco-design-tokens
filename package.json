@@ -1,6 +1,6 @@
 {
   "name": "cds-tokens",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Design Tokens for Costco Design System",
   "author": "Costco Wholesale - UX Design",
   "repository": {
@@ -19,9 +19,9 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "style-dictionary": "2.10.1"
+    "style-dictionary": "2.10.2"
   },
   "dependencies": {
-    "param-case": "^3.0.3"
+    "param-case": "^3.0.4"
   }
 }

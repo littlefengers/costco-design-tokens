@@ -1,7 +1,9 @@
 {
   "bp": {
-    "sm": { "value": "320px" },
-    "md": { "value": "668px" },
-    "lg": { "value": "769px" }
+    "xxs": { "value": "0" },
+    "xs": { "value": "320" },
+    "sm": { "value": "768" },
+    "md": { "value": "1024" },
+    "lg": { "value": "1440" }
   }
 }

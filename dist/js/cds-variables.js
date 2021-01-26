@@ -1,11 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Dec 2020 22:52:00 GMT
+ * Generated on Tue, 26 Jan 2021 20:23:12 GMT
  */
 
-export const BpSm = "320px";
-export const BpMd = "668px";
-export const BpLg = "769px";
+export const BpXxs = "0";
+export const BpXs = "20";
+export const BpSm = "48";
+export const BpMd = "64";
+export const BpLg = "90";
 export const ColorCostcoBlue = "#005dab";
 export const ColorCostcoRed = "#e51937";
 export const ColorGray100 = "#fafafa";
@@ -52,6 +54,13 @@ export const FontLineHeightMd = "24px";
 export const FontLineHeightSm = "20px";
 export const FontWeightDefault = "400";
 export const FontWeightBold = "700";
+export const GridCols = 12;
+export const GridGutterWidth = 24;
+export const GridOuterWidth = 16;
+export const GridContainerXs = "18";
+export const GridContainerSm = "46";
+export const GridContainerMd = "62";
+export const GridContainerLg = "88";
 export const RadiusSm = "2px";
 export const RadiusMd = "3px";
 export const SizeBorderWidthThin = "1px";
@@ -101,7 +110,7 @@ export const TypeFontT7DesktopLineHeight = "20px"; // alias of font.line-height.
 export const TypeFontT7MobileSize = "12px"; // alias of font.size.1
 export const TypeFontT7MobileLineHeight = "20px"; // alias of font.line-height.sm
 export const TypeFontBodyCopyDesktopSize = "14px"; // alias of font.size.2
-export const TypeFontBodyCopyDesktopLineHeight = "32px"; // alias of font.line-height.md
+export const TypeFontBodyCopyDesktopLineHeight = "24px"; // alias of font.line-height.md
 export const TypeFontBodyCopyMobileSize = "14px"; // alias of font.size.2
 export const TypeFontBodyCopyMobileLineHeight = "24px"; // alias of font.line-height.md
 export const ButtonsColorPrimaryDefaultBackground = "#3071a9"; // alias of color.blue-500

@@ -20,7 +20,7 @@
         "destination": "cds-variables.js",
         "format": "javascript/es6"
       }],
-      "transforms" : ["name/cti/pascal"]
+      "transforms" : ["name/cti/pascal", "size/pxToRem"]
     }
   }
 }

@@ -59,7 +59,7 @@
       },
       "body-copy-desktop": {
         "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },
-        "line-height": { "value": "{font.line-height.xl.value}","comment" : "alias of font.line-height.md" }
+        "line-height": { "value": "{font.line-height.md.value}","comment" : "alias of font.line-height.md" }
       },
       "body-copy-mobile": {
         "size": { "value": "{font.size.2.value}","comment" : "alias of font.size.2" },

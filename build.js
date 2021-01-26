@@ -1,34 +1,57 @@
-const StyleDictionary = require('style-dictionary');
-const {paramCase} = require('param-case');
+const StyleDictionary = require("style-dictionary")
+const { paramCase } = require("param-case")
 
-console.log('Build started...');
-console.log('\n==============================================');
-
+console.log("Build started...")
+console.log("\n==============================================")
 
 // REGISTER THE CUSTOM TRANFORMS
-
+//TODO Refactor so it's more flexible
+//Or remove transforms altogether
 StyleDictionary.registerTransform({
-  name: 'web/px', // notice: the name is an override of an existing predefined method (yes, you can do it)
-  type: 'value',
-  matcher: function(prop) {
-      // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
-      return (prop.path[0] === 'space' && !prop.path[1]==="stack");
+  name: "web/px", // notice: the name is an override of an existing predefined method (yes, you can do it)
+  type: "value",
+  matcher: function (prop) {
+    // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
+    return prop.path[0] === "bp"
   },
-  transformer: function(prop) {
+  transformer: function (prop) {
     //Will need to write a custom transform that splits
-      return `${prop.value}px`;
-  }
-});
-
-StyleDictionary.registerTransform({
-  name: 'name/cti/kebabCustom',
-  type: 'name',
-  transformer: function(prop,options){
-    return paramCase([options.prefix].concat(prop.path).join(' '));
-  }
-
+    return `${prop.value}px`
+  },
 })
 
+StyleDictionary.registerTransform({
+  name: "name/cti/kebabCustom",
+  type: "name",
+  transformer: function (prop, options) {
+    return paramCase([options.prefix].concat(prop.path).join(" "))
+  },
+})
+
+//Slightly different than what's in 3.0 because we don't need the rem, but want the calculation
+//TODO Can't decide yet if we should do transforms in style dictionary or Forge
+StyleDictionary.registerTransform({
+  name: "size/pxToRem", //
+  type: "value",
+  matcher: function (prop) {
+    // this is an example of a possible filter (based on the "cti" values) to show how a "matcher" works
+    return (prop.path[0] === "bp" || prop.path[1] === "container")
+  },
+  transformer: function (prop) {
+    //Will need to write a custom transform that splits
+    const floatVal = parseFloat(prop.value)
+
+    if (isNaN(floatVal)) {
+      throwSizeError(prop.name, prop.value, "rem")
+    }
+
+    if (floatVal === 0) {
+      return "0"
+    }
+
+    return `${floatVal / 16}`
+  },
+})
 
 // StyleDictionary.registerTransform({
 //   name: 'ratio/%',
@@ -75,7 +98,6 @@ StyleDictionary.registerTransform({
 //   }
 // });
 
-
 // // REGISTER THE CUSTOM TRANFORM GROUPS
 
 // // if you want to see what a pre-defined group contains, uncomment the next line:
@@ -101,7 +123,6 @@ StyleDictionary.registerTransform({
 //   transforms: ['name/squiggle', 'hexRGB/hexARGB', 'unitless/dp-sp']
 // });
 
-
 // // REGISTER A CUSTOM FORMAT (to be used for this specific example)
 
 // StyleDictionary.registerFormat({
@@ -113,16 +134,13 @@ StyleDictionary.registerTransform({
 //   }
 // });
 
-
 // APPLY THE CONFIGURATION
 // IMPORTANT: the registration of custom transforms
 // needs to be done _before_ applying the configuration
-StyleDictionaryExtended = StyleDictionary.extend(__dirname + '/config.json');
-
+StyleDictionaryExtended = StyleDictionary.extend(__dirname + "/config.json")
 
 // FINALLY, BUILD ALL THE PLATFORMS
-StyleDictionaryExtended.buildAllPlatforms();
+StyleDictionaryExtended.buildAllPlatforms()
 
-
-console.log('\n==============================================');
-console.log('\nBuild completed!');
+console.log("\n==============================================")
+console.log("\nBuild completed!")

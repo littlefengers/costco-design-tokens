@@ -1,12 +1,14 @@
 
 /*
   Do not edit directly
-  Generated on Mon, 21 Dec 2020 22:52:00 GMT
+  Generated on Tue, 26 Jan 2021 20:23:12 GMT
 */
 
-$cds-bp-sm: 320px !default;
-$cds-bp-md: 668px !default;
-$cds-bp-lg: 769px !default;
+$cds-bp-xxs: 0px !default;
+$cds-bp-xs: 320px !default;
+$cds-bp-sm: 768px !default;
+$cds-bp-md: 1024px !default;
+$cds-bp-lg: 1440px !default;
 $cds-color-costco-blue: #005dab !default;
 $cds-color-costco-red: #e51937 !default;
 $cds-color-gray-100: #fafafa !default;
@@ -53,6 +55,13 @@ $cds-font-line-height-md: 24px !default;
 $cds-font-line-height-sm: 20px !default;
 $cds-font-weight-default: 400 !default;
 $cds-font-weight-bold: 700 !default;
+$cds-grid-cols: 12 !default;
+$cds-grid-gutter-width: 24 !default;
+$cds-grid-outer-width: 16 !default;
+$cds-grid-container-xs: 288 !default;
+$cds-grid-container-sm: 736 !default;
+$cds-grid-container-md: 992 !default;
+$cds-grid-container-lg: 1408 !default;
 $cds-radius-sm: 2px !default;
 $cds-radius-md: 3px !default;
 $cds-size-border-width-thin: 1px !default;
@@ -102,7 +111,7 @@ $cds-type-font-t7-desktop-line-height: 20px !default; // alias of font.line-heig
 $cds-type-font-t7-mobile-size: 12px !default; // alias of font.size.1
 $cds-type-font-t7-mobile-line-height: 20px !default; // alias of font.line-height.sm
 $cds-type-font-body-copy-desktop-size: 14px !default; // alias of font.size.2
-$cds-type-font-body-copy-desktop-line-height: 32px !default; // alias of font.line-height.md
+$cds-type-font-body-copy-desktop-line-height: 24px !default; // alias of font.line-height.md
 $cds-type-font-body-copy-mobile-size: 14px !default; // alias of font.size.2
 $cds-type-font-body-copy-mobile-line-height: 24px !default; // alias of font.line-height.md
 $cds-buttons-color-primary-default-background: #3071a9 !default; // alias of color.blue-500
@@ -176,6 +185,8 @@ $cds-notifications-radius: 3px !default; // alias of radius.md
 
 $cds-tokens: (
   'bp': (
+    'xxs': $cds-bp-xxs,
+    'xs': $cds-bp-xs,
     'sm': $cds-bp-sm,
     'md': $cds-bp-md,
     'lg': $cds-bp-lg
@@ -238,6 +249,17 @@ $cds-tokens: (
     'weight': (
       'default': $cds-font-weight-default,
       'bold': $cds-font-weight-bold
+    )
+  ),
+  'grid': (
+    'cols': $cds-grid-cols,
+    'gutterWidth': $cds-grid-gutter-width,
+    'outerWidth': $cds-grid-outer-width,
+    'container': (
+      'xs': $cds-grid-container-xs,
+      'sm': $cds-grid-container-sm,
+      'md': $cds-grid-container-md,
+      'lg': $cds-grid-container-lg
     )
   ),
   'radius': (

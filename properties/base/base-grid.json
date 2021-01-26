@@ -1,0 +1,13 @@
+{
+  "grid": {
+    "cols": { "value": 12 },
+    "gutterWidth": { "value": 24 },
+    "outerWidth": { "value": 16 },
+    "container": {
+      "xs": { "value": 288 },
+      "sm": { "value": 736 },
+      "md": { "value": 992 },
+      "lg": { "value": 1408 }
+    }
+  }
+}
