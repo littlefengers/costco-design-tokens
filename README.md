@@ -11,7 +11,7 @@
 
 ## Installation
 
-CDS design tokens are available as a npm package on [npm](https://www.npmjs.com/)
+CDS Design Tokens is available as a npm package on [npm](https://www.npmjs.com/)
 
 To install the package locally using npm:
 
