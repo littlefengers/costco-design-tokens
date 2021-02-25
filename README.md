@@ -81,11 +81,11 @@ To use
 | Space      | space  |
 | Typography | type   |
 
-Attribute Type → Attribute → Attribute Variant
+`Attribute Type → Attribute → Attribute Variant`
 
 **Component Tokens**
 
-Component → Attribute Type → Component Variant → Component State → Attribute
+`Component → Attribute Type → Component Variant → Component State → Attribute`
 
 ## Contributing
 
