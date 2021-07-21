@@ -3,6 +3,7 @@
 | Component    | Status                |
 |--------------|-----------------------|
 | Button       | Complete              |
+| Card         | Complete              |
 | Divider      | Complete              |
 | Input        | Single input complete |
 | List         | Complete              |
