@@ -1,7 +1,7 @@
 
 /*
   Do not edit directly
-  Generated on Wed, 21 Jul 2021 14:35:31 GMT
+  Generated on Wed, 21 Jul 2021 15:45:57 GMT
 */
 
 $cds-bp-xxs: 0px !default;
@@ -144,6 +144,11 @@ $cds-buttons-size-outline-primary-border-width: 1px !default;
 $cds-buttons-size-outline-secondary-border-width: 1px !default;
 $cds-buttons-radius: 3px !default; // alias of radius.md
 $cds-buttons-font-size: 16px !default; // alias of font.size.3
+$cds-card-color-background: #ffffff !default;
+$cds-card-color-border: #909090 !default;
+$cds-card-space-inset: 16px 16px 16px 16px !default;
+$cds-card-size-border-width: 1px !default;
+$cds-card-radius: 2px !default;
 $cds-dividers-color-border: #cccccc !default; // alias of color.gray-500
 $cds-dividers-size-border-width: 1px !default; // alias of size.border-width.thin
 $cds-feedback-text-space-margin: 0 0 0 4px !default;
@@ -448,6 +453,19 @@ $cds-tokens: (
     'space': (
 
     )
+  ),
+  'card': (
+    'color': (
+      'background': $cds-card-color-background,
+      'border': $cds-card-color-border
+    ),
+    'space': (
+      'inset': $cds-card-space-inset
+    ),
+    'size': (
+      'border-width': $cds-card-size-border-width
+    ),
+    'radius': $cds-card-radius
   ),
   'dividers': (
     'color': (

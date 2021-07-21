@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 21 Jul 2021 14:35:31 GMT
+ * Generated on Wed, 21 Jul 2021 15:45:57 GMT
  */
 
 export const BpXxs = "0";
@@ -143,6 +143,11 @@ export const ButtonsSizeOutlinePrimaryBorderWidth = "1px";
 export const ButtonsSizeOutlineSecondaryBorderWidth = "1px";
 export const ButtonsRadius = "3px"; // alias of radius.md
 export const ButtonsFontSize = "16px"; // alias of font.size.3
+export const CardColorBackground = "#ffffff";
+export const CardColorBorder = "#909090";
+export const CardSpaceInset = "16px 16px 16px 16px";
+export const CardSizeBorderWidth = "1px";
+export const CardRadius = "2px";
 export const DividersColorBorder = "#cccccc"; // alias of color.gray-500
 export const DividersSizeBorderWidth = "1px"; // alias of size.border-width.thin
 export const FeedbackTextSpaceMargin = "0 0 0 4px";

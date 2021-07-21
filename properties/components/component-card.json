@@ -1,0 +1,15 @@
+{
+    "card": {
+        "color" :{
+            "background": {"value": "{color.white.value}"},
+            "border" : {"value":"{color.gray-600.value}"}
+        },
+        "space" :{
+            "inset" :{"value":"{space.inset.md.value}"}
+        },
+        "size" : {
+            "border-width" : {"value":"{size.border-width.thin.value}"}
+        },
+        "radius" : {"value":"{radius.sm.value}"}
+    }
+}
