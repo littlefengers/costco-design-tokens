@@ -2,8 +2,8 @@
   "notifications": {
     "color": {
       "alert": {
-        "background" : {"value": "{color.yellow-200.value}", "comment" : "alias of color.yellow-200"},
-        "border" : {"value": "{color.yellow-100.value}", "comment" : "alias of color.yellow-100"},
+        "background" : {"value": "{color.yellow-100.value}", "comment" : "alias of color.yellow-100"},
+        "border" : {"value": "{color.yellow-200.value}", "comment" : "alias of color.yellow-200"},
         "text" : {"value": "{color.gray-900.value}", "comment" : "alias of color.gray-900"}
       },
       "error": {

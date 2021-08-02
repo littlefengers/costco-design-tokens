@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 21 Jul 2021 15:45:57 GMT
+ * Generated on Mon, 02 Aug 2021 23:34:32 GMT
  */
 
 export const BpXxs = "0";
@@ -172,8 +172,8 @@ export const LabelColorErrorText = "#d32029";
 export const LabelColorFocusText = "#3071a9";
 export const LabelColorInactiveText = "#333333";
 export const ListSpaceMargin = "0 8px 0 0";
-export const NotificationsColorAlertBackground = "#ffcc00"; // alias of color.yellow-200
-export const NotificationsColorAlertBorder = "#fff8d2"; // alias of color.yellow-100
+export const NotificationsColorAlertBackground = "#fff8d2"; // alias of color.yellow-100
+export const NotificationsColorAlertBorder = "#ffcc00"; // alias of color.yellow-200
 export const NotificationsColorAlertText = "#333333"; // alias of color.gray-900
 export const NotificationsColorErrorBackground = "#fdd6d6"; // alias of color.red-100
 export const NotificationsColorErrorBorder = "#d32029"; // alias of color.red-500
